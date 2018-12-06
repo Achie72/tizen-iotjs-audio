@@ -1,9 +1,9 @@
 var https = require('https')
 var fs = require('fs');
 
-console.log(fs.existsSync('/home/owner/apps_rw/org.example.almafa/res/test.mp3'));
+console.log(fs.existsSync('/home/owner/apps_rw/org.example.tizen-iotjs-audio/res/test.mp3'));
 
-var fd = fs.openSync('/home/owner/apps_rw/org.example.almafa/res/test.mp3', 'r');
+var fd = fs.openSync('/home/owner/apps_rw/org.example.tizen-iotjs-audio/res/test.mp3', 'r');
 
 var stat = fs.fstatSync(fd);
 
